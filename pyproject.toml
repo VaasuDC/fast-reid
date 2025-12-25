@@ -21,7 +21,7 @@ Repository = "https://github.com/JDAI-CV/fast-reid"
 packages = ["fastreid"]
 
 [tool.hatch.build.targets.wheel.force-include]
-"configs" = ["fastreid/configs"]
+"configs" = "fastreid/configs"
 
 [build-system]
 requires = ["hatchling"]
