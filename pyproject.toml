@@ -19,3 +19,7 @@ Repository = "https://github.com/JDAI-CV/fast-reid"
 
 [tool.setuptools.packages.find]
 where = ["fastreid"]
+
+[build-system]
+requires = ["setuptools>=67.6"]
+build-backend = "setuptools.build_meta"
