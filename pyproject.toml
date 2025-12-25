@@ -16,3 +16,6 @@ dependencies = [
 
 [project.urls]
 Repository = "https://github.com/JDAI-CV/fast-reid"
+
+[tool.setuptools.packages.find]
+where = ["fastreid"]
